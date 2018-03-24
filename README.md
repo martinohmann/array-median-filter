@@ -1,5 +1,5 @@
-arry-median-filter-challenge
-============================
+array-median-filter-challenge
+=============================
 
 https://github.com/mwmichael/codewars/blob/master/tasks/ArrayMedianFinder.md
 
