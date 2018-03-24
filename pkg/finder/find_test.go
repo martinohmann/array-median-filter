@@ -55,8 +55,7 @@ func TestFindTheMissingLength(t *testing.T) {
 }
 
 func BenchmarkFindTheMissingLength(b *testing.B) {
-	// run the Fib function b.N times
 	for n := 0; n < b.N; n++ {
-		FindTheMissingLength([][]int{})
+		FindTheMissingLength([][]int{[]int{1, 2}, []int{1, 2, 3}, []int{1, 2, 3, 4, 5}})
 	}
 }
